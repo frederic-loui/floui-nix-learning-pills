@@ -4,7 +4,7 @@
 * NixOS
 
 ## 2 possibilities when using Linux/MacOS (NixOS is multi-user):
-* **Single user Nix installation:**  
+* **Single-user Nix installation:**  
  
 As `root`:
 ```
@@ -16,7 +16,7 @@ As `nix` standard Linux user:
 ```
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 ```
-* **Multi user Nix installation:**   
+* **Multi-user Nix installation:**   
 As `root`:
 ```
 adduser nix
