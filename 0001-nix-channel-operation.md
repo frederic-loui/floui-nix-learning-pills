@@ -26,3 +26,7 @@ Nix supports a concept called `generation`. If after an `update` you are not sat
 $ nix-channel --rollback `generation`
 $ nix-channel --update
 ```
+## update channel
+```
+nix-channel --update 
+```
