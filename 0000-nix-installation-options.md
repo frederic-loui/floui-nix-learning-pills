@@ -3,7 +3,7 @@
 * Using any Linux flavor or MacOS
 * NixOS
 
-## For both choices 2 possibilities:
+## 2 possibilities when using Linux/MacOS (NixOS is multi-user):
 * **Single user Nix installation:**  
  
 As `root`:
