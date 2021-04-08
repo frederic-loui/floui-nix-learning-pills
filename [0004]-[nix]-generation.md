@@ -23,11 +23,11 @@ lrwxrwxrwx 1 nix nix 14 Apr  8 16:10 profile -> profile-4-link
 lrwxrwxrwx 1 nix nix 60 Apr  8 09:24 profile-1-link -> /nix/store/cvqjv2c8dzww5gmwddlbs5d12lnxysqw-user-environment
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:02 profile-2-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:03 profile-3-link -> /nix/store/gwxxjbh8v9p0m6gn3zi8m9bmlggraxc4-user-environment
-lrwxrwxrwx 1 nix nix 60 Apr  8 16:10 profile-4-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment
+lrwxrwxrwx 1 nix nix 60 Apr  8 16:10 **profile-4-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment**
 ```
 Check 4th generation symlink `<4th-generation-symlink>/bin`
 ```
-nix@buster-nix:~$ ls -l /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment/bin
+nix@buster-nix:~$ ls -l **/nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment/bin**
 total 64
 lrwxrwxrwx 1 nix nix 60 Jan  1  1970 mc -> /nix/store/gry78g7nfr84fyzna4lw3d7awhmnnn5w-mc-4.8.26/bin/mc
 lrwxrwxrwx 1 nix nix 64 Jan  1  1970 mcdiff -> /nix/store/gry78g7nfr84fyzna4lw3d7awhmnnn5w-mc-4.8.26/bin/mcdiff
@@ -48,7 +48,7 @@ lrwxrwxrwx 1 nix nix 68 Jan  1  1970 nix-store -> /nix/store/iwfs2bfcy7lqwhri94p
 ```
 
 ## Software installation impact on generation
-`git` is not installed, 
+`git` is not installed
 ```
 nix@buster-nix:~$ git
 -bash: git: command not found
@@ -87,15 +87,13 @@ lrwxrwxrwx 1 nix nix 60 Apr  8 09:24 profile-1-link -> /nix/store/cvqjv2c8dzww5g
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:02 profile-2-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:03 profile-3-link -> /nix/store/gwxxjbh8v9p0m6gn3zi8m9bmlggraxc4-user-environment
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:10 profile-4-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment
-lrwxrwxrwx 1 nix nix 60 Apr  8 17:20 profile-5-link -> /nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment
+lrwxrwxrwx 1 nix nix 60 Apr  8 17:20 **profile-5-link -> /nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment**
 ```
 Check 5th generation symlink `<4th-generation-symlink>/bin`
 ```
-ls -l /nix/var/nix/profiles/per-user/nix/ls -l /nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment/bin/
-ls: cannot access '/nix/var/nix/profiles/per-user/nix/ls': No such file or directory
-/nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment/bin/:
+ls -l **/nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment/bin/**
 total 96
-lrwxrwxrwx 1 nix nix 62 Jan  1  1970 git -> /nix/store/xianfgmb08p08yn0hfyg0w3szhgmz1mc-git-2.31.0/bin/git
+lrwxrwxrwx 1 nix nix 62 Jan  1  1970 **git -> /nix/store/xianfgmb08p08yn0hfyg0w3szhgmz1mc-git-2.31.0/bin/git**
 lrwxrwxrwx 1 nix nix 79 Jan  1  1970 git-credential-netrc -> /nix/store/xianfgmb08p08yn0hfyg0w3szhgmz1mc-git-2.31.0/bin/git-credential-netrc
 lrwxrwxrwx 1 nix nix 72 Jan  1  1970 git-cvsserver -> /nix/store/xianfgmb08p08yn0hfyg0w3szhgmz1mc-git-2.31.0/bin/git-cvsserver
 lrwxrwxrwx 1 nix nix 75 Jan  1  1970 git-http-backend -> /nix/store/xianfgmb08p08yn0hfyg0w3szhgmz1mc-git-2.31.0/bin/git-http-backend
