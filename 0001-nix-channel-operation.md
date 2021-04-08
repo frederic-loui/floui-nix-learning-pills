@@ -1,7 +1,8 @@
 # Nix channel on Linux
+After having installed Nix package manager you'd expect to install some packages from one or sevreral repositories similar to Debian or Redhat package manager.
 Nix comes with a default set of packages called **Nix packages collection**. Once you installed Nix, this install a default channel.
 ## List channel
-This list the channel that is currently active.
+This list the channel that is currently active. Below you see the default channel installed.
 ```
 nix@buster-nix:~$ nix-channel --list
 nixpkgs https://nixos.org/channels/nixpkgs-unstable
