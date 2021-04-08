@@ -30,3 +30,4 @@ $ nix-channel --update
 ```
 nix-channel --update 
 ```
+note to self: As a start, we are considering a mono repository model, that i presume translate into using one channel. How to handle software installation when having several channels ? (multiple calls of `nix-channel --add <my_additional_channel>`) 
