@@ -1,6 +1,6 @@
 # Nix channel on Linux
-After having installed Nix package manager you'd expect to install some packages from one or sevreral repositories similar to Debian or Redhat package manager.
-Nix comes with a default set of packages called **Nix packages collection**. Once you installed Nix, this install a default channel.
+After having installed Nix package manager you'd expect to install some packages from one or several repositories similar to Debian or Redhat package manager.
+Nix comes with a default set of packages called **Nix package collection**. Once you installed Nix, this install a default channel.
 ## List channel
 This list the channel that is currently active. Below you see the default channel installed.
 ```
@@ -23,7 +23,7 @@ $ nix-channel --update
 ## Rollback channel
 Nix supports a concept called `generation`. If after an `update` you are not satisfied you can rollbac your system to previous generation.
 ```
-$ nix-channel --rollback `generation`
+$ nix-channel --rollback `<generation>`
 $ nix-channel --update
 ```
 ## update channel
