@@ -20,11 +20,6 @@ $ nix-channel --update
 $ nix-channel --remove https://nixos.org/channels/nixpkgs-unstable
 $ nix-channel --update
 ```
-## Update channel
-```
-$ nix-channel --remove https://nixos.org/channels/nixpkgs-unstable
-$ nix-channel --update
-```
 ## Rollback channel
 Nix supports a concept called `generation`. If after an `update` you are not satisfied you can rollbac your system to previous generation.
 ```
