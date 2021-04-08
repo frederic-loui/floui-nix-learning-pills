@@ -1,9 +1,10 @@
-2 Choices:
+# Nix installation options
+## 2 operating systems:
 * Using any Linux flavor or MacOS
 * NixOS
 
-For both choices 2 possibilities:
-Single user Nix installation:  
+## For both choices 2 possibilities:
+* **Single user Nix installation:**  
  
 As root:
 ```
@@ -15,7 +16,7 @@ As any standard Linux user: (e.g nix)
 ```
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 ```
-Multi user Nix installation:   
+* **Multi user Nix installation:**   
 As root:
 ```
 adduser nix
