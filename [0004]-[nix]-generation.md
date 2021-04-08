@@ -1,4 +1,4 @@
-# nix generation
+# Nix generation
 Nix has a `generation` concept that basically identify the state of a Nix distribution installation
 ## List Nix generation
 ```
