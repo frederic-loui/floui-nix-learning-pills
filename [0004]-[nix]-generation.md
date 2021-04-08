@@ -89,9 +89,9 @@ lrwxrwxrwx 1 nix nix 60 Apr  8 16:03 profile-3-link -> /nix/store/gwxxjbh8v9p0m6
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:10 profile-4-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment
 lrwxrwxrwx 1 nix nix 60 Apr  8 17:20 profile-5-link -> /nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment
 ```
-Check 5th generation symlink `<4th-generation-symlink>/bin`
+Check 5th generation symlink `<5th-generation-symlink>/bin`
 ```
-ls -l **/nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment/bin/**
+ls -l /nix/store/9b678lmcypij6qd491l28sdsxch5rmlw-user-environment/bin/
 total 96
 lrwxrwxrwx 1 nix nix 62 Jan  1  1970 git -> /nix/store/xianfgmb08p08yn0hfyg0w3szhgmz1mc-git-2.31.0/bin/git
 lrwxrwxrwx 1 nix nix 79 Jan  1  1970 git-credential-netrc -> /nix/store/xianfgmb08p08yn0hfyg0w3szhgmz1mc-git-2.31.0/bin/git-credential-netrc
