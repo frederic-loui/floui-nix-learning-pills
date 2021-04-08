@@ -26,7 +26,7 @@ As `nix` standard Linux user:
 ```
 sh <(curl -L https://nixos.org/nix/install) --daemon
 ```
-note: sudo will be invoked in order to issue actions requiring root privileges.  
+note: `sudo` will be invoked in order to issue actions requiring `root` privileges.  
 
 For simplicity's sake, I'll **start my Nix journey** with a `single-user` installation: 
 * All Nix magic will occur into `/nix` and `/home/nix`
