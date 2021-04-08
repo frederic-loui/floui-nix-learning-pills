@@ -22,7 +22,7 @@ As `root`:
 adduser nix
 usermod -aG wheel nix
 ```
-As `nix` any standard Linux user:
+As `nix` standard Linux user:
 ```
 sh <(curl -L https://nixos.org/nix/install) --daemon
 ```
