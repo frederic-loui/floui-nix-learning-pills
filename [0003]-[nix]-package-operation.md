@@ -36,4 +36,7 @@ nix@buster-nix:~$ nix-env -u mc
 # Even if mc is already installed
 nix@buster-nix:~$ nix-env -i mc
 ```
-
+## Dry run
+```
+nix-env -u --dry-run
+```
