@@ -1,5 +1,6 @@
 # Nix Package operation
 ## Find package whose name starts with `mc` string
+In this pills, let's consider Midnight Commander software tool `mc`.
 ```
 nix@buster-nix:~$ nix-env -qa 'mc.*'
 mc-4.8.26
