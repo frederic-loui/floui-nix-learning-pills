@@ -1,6 +1,5 @@
 # floui-nix-learning-pills
-[`Nix`](https://nixos.org/) is a package manager that features interesting characteristics.  
-What I think is interesting:
+[`Nix`](https://nixos.org/) is a package manager that features interesting characteristics:  
 * Reproducibility
 * Portability
 
