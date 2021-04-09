@@ -1,6 +1,6 @@
 # floui-nix-learning-pills
-Nix is a package manager that features new interesting characteristics.  
-What I personnally, think is interesting:
+Nix is a package manager that features interesting characteristics.  
+What I personally, think is interesting:
 * Reproducibility
 * Portability
 
