@@ -32,7 +32,7 @@ created 6 symlinks in user environment
 ```
 nix@buster-nix:~$ nix-env -u mc
 ```
-## Unconditionnally replace package `mc`
+## Unconditionnally replace package `mc`. (i.e remove old package if any, by the new one)
 ```
 # Even if mc is already installed
 nix@buster-nix:~$ nix-env -i mc
