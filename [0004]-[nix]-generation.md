@@ -13,7 +13,7 @@ In the example above, the command list 4 generations, that corresponded to the f
 2. remove `mc`
 3. build `mc`
 4. install `mc` (pointer indicating the current generation in use)
-## Generation in Nix store
+## Generation declination in Nix store
 ```
 nix@buster-nix:~$ ls -l /nix/var/nix/profiles/per-user/nix/
 total 20
