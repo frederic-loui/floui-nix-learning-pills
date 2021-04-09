@@ -23,7 +23,7 @@ lrwxrwxrwx 1 nix nix 14 Apr  8 16:10 profile -> profile-4-link
 lrwxrwxrwx 1 nix nix 60 Apr  8 09:24 profile-1-link -> /nix/store/cvqjv2c8dzww5gmwddlbs5d12lnxysqw-user-environment
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:02 profile-2-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment
 lrwxrwxrwx 1 nix nix 60 Apr  8 16:03 profile-3-link -> /nix/store/gwxxjbh8v9p0m6gn3zi8m9bmlggraxc4-user-environment
-lrwxrwxrwx 1 nix nix 60 Apr  8 16:10 **profile-4-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment**
+lrwxrwxrwx 1 nix nix 60 Apr  8 16:10 profile-4-link -> /nix/store/in7d8w4mb3vh1ry9ry57bpz508z9jlzi-user-environment**
 ```
 Check 4th generation symlink `<4th-generation-symlink>/bin`
 ```
