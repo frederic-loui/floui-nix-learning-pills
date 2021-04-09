@@ -3,7 +3,7 @@
 * Reproducibility
 * Portability
 
-As a non developer, with little familiarity with package management and system administration, starting doing something with `Nix` requires an immeasurable amount of time and pain. You might say, why still persisting in this direction ? The answers are simple, `Nix` can help me:
+As a non developer, with little familiarity with package management and system administration, starting doing something with `Nix` requires an immeasurable amount of time and pain. You might say, why persisting in this direction and still try to learn more about `Nix`? The answers are simple, `Nix` can help me:
 * Solves problems I might face in the near future and helps save me an **EVEN MORE HIGHER** amount of time and pain
 * Propose a consistent, robust answers to people's problem and thus save **EVEN MORE OF OTHER's** time and pain
 
