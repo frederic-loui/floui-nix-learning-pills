@@ -1,5 +1,5 @@
 # Nix generation
-Nix has a `generation` concept that basically identify the state of a Nix distribution installation
+Nix has a `generation` concept that basically identify the state of a Nix distribution installation on a per Nix `profile` basis
 ## List Nix generation
 ```
 nix@buster-nix:~$ nix-env --list-generations
