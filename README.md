@@ -1,6 +1,6 @@
 # floui-nix-learning-pills
 Nix is a package manager that features new interesting characteristics.  
-What is interesting personnally is:
+What I personnally, think is interesting:
 * Reproducibility
 * Portability
 
